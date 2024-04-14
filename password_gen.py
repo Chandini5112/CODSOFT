@@ -28,6 +28,8 @@ def main():
 
         except ValueError:
             print("Please enter a valid integer for the password length.")
-
-if __name__ == "__main__":
+        break
+if "__main__" != __name__:
+    pass
+else:
     main()
